@@ -13,6 +13,8 @@ Paste or attach a photo and Claude:
 
 No guessing from a text description — the analysis always starts from the actual pixels.
 
+> **Note:** this rebuilds the *style* of a photo — its angle, lens, light, grade, and composition — into a text prompt for a generation model. It's not meant to reproduce the source image pixel-for-pixel, and text-to-image generation won't give you an exact copy even with a very detailed prompt. If you need to preserve an exact scene and only change one element, look at image-to-image / inpainting tools instead — this skill is for capturing the *look and feel*, then letting you swap in something new.
+
 ## The dimensions it reads
 
 | Dimension | What it's reading |
